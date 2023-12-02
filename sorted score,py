@@ -1,0 +1,16 @@
+# Basic Data Types
+student_names = ["John", "Jill", "Harry", "Joe"]
+marks_scores = [86.5, 84.5, 72.1, 80.5]
+
+
+
+top_three_scores = sorted(marks_scores, reverse=True)[:3]
+average_score = sum(marks_scores) / len(marks_scores)
+
+print("Student Names:", student_names)
+print("Marks Scores:", marks_scores)
+print("Top Three Scores:", top_three_scores)
+print("Average Score:", average_score)
+
+
+
